@@ -1,4 +1,3 @@
-import json
 
 # See https://github.com/peopledatalabs/peopledatalabs-python
 from peopledatalabs import PDLPY
@@ -24,10 +23,13 @@ PARAMS = {
 }
 
 # Pass the parameters to the Person Enrichment API
-json_response = CLIENT.person.enrichment(**PARAMS).json()
+json_response = CLIENT.person.identify(
+    **PARAMS,
+    pretty = True
+)
 
 # Print the API response in JSON format
 
 # print(json_response['data']["full_name"])
-print(json_response['data'])
+print(json_response.text)
 
