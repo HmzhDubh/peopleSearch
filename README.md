@@ -8,13 +8,7 @@
 
 - [🔧 Installation](#installation)
 - [🚀 Usage](#usage)
-- [🏝 Sandbox Usage](#sandbox)
 - [🌐 Endpoints](#endpoints)
-- [📘 Documentation](#documentation)
-  - [Upgrading to v2.X.X](#upgrading-to-v2)
-  - [Upgrading to v3.X.X](#upgrading-to-v3)
-  - [Upgrading to v4.X.X](#upgrading-to-v4)
-
 
 ## 🔧 Installation <a name="installation"></a>
 
