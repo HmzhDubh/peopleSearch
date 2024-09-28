@@ -5,7 +5,7 @@ from peopledatalabs import PDLPY
 # Create a client, specifying your API key
 CLIENT = PDLPY(
     # Replace this with Your API KEY
-    api_key="78baeff2820e69cb825753fd9220b56a2acdc011a528f132d5fe3bb2b7640133",
+    api_key="your_api_key",
 )
 
 # Create a parameters JSON object according to the following minimum inputs role
