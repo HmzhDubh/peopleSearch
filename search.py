@@ -1,11 +1,17 @@
+import os
 
 # See https://github.com/peopledatalabs/peopledatalabs-python
 from peopledatalabs import PDLPY
-
+from dotenv import load_dotenv
+import os
 # Create a client, specifying your API key
+
+load_dotenv()
+k = os.getenv('api_key')
 CLIENT = PDLPY(
     # Replace this with Your API KEY
-    api_key="your_api_key",
+    api_key = k
+
 )
 
 # Create a parameters JSON object according to the following minimum inputs role
