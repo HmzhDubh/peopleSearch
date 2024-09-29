@@ -3,6 +3,7 @@
 </p>
 <h1 align="center">People Data Labs Python Client</h1>
 
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
 
 ## Table of Contents
 
