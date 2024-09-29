@@ -27,7 +27,7 @@ print("Search By: \n 1. profile \n 2. email \n 3. phone "
       "OR locality OR region OR country OR postal_code OR birth_date)")
 choice = input("Enter Your Choice: ")
 if choice == "1":
-    profile = input("Enter the profile link: ")
+    profile = input("Enter the profile link (ie. https://linkedin.com/in/seanthorne): ")
     PARAMS.update({
         "profile": {profile}
     })
